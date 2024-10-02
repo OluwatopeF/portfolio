@@ -7,29 +7,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body id="mainBody">
     
     <nav class="navBar">  
         <ul>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a id="navProjects" onclick="openProjects()">Projects</a></li>
+            <li><a id="navContact" onclick="openContact()">Contact</a></li>
         </ul>
     </nav>
 
-    <main class="intro">
+    <main class="intro" id="intro">
         <h1>Hello. My name is</h1>
         <div class="name"><h1>Oluwatope Folorunso</h1></div>
     </main>
 
-    <div class="project">
+    <div class="project" id="project">
         <h1>Projects</h1>
     </div>
 
-    <footer>
+    <footer id="contact">
         <h1>Contact</h1>
     </footer>
 
-
+    <script src="app.js"></script>
 
 
 </body>

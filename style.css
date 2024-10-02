@@ -17,26 +17,37 @@ body{
 /* name design */
 .name{
     background-color: red;
+    max-width: fit-content;
+    position: relative;
 }
+
 /* navbar */
 .navBar{
     top: 0;
     position: sticky;
     grid-area: navbar;
-    background-color: blue;
+    background-color: black;
 }
 
 .navBar ul{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     list-style-type: none;
-    padding: 10px;
+    text-decoration: none;
+    font-style: italic;
+    padding: 15px;
 }
 
+
 .navBar ul li a{
-    color: black;
+    color: white;
+    text-decoration: none;
     font-size: larger;
-    padding: 20px;
+    padding: 40px;
+}
+
+.navBar ul li a:hover{
+    color: lightblue;
 }
 
 
@@ -46,8 +57,11 @@ body{
     grid-area: main;
     background-color: aqua;
 }
+
+
 .projects{
     grid-area: project;
+
 }
 
 /* contact */
