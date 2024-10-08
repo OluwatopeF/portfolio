@@ -1,23 +1,27 @@
+// Get body and project elements
+const bodyChange = document.body;
+const projChange = document.querySelector(".project");
+const contactSection = document.querySelector("footer");
 
-// default:
-// grid-template-rows:auto 1fr auto auto;
+// Hide project section initially
+projChange.style.maxHeight = "0";
 
-// body id
-const bodyChange = document.getElementById("mainBody");
+// Opens Project section (with animation)
+function openProjects() {
+    if (bodyChange.classList.contains('expanded')) {
+        bodyChange.classList.remove('expanded');
+        projChange.style.maxHeight = "0"; 
+        contactSection.style.maxHeight = "0"; 
+    } else {
+        bodyChange.classList.add('expanded');
+        projChange.style.maxHeight = "687px"; 
+        contactSection.style.maxHeight = "0"; 
+    }
+}
 
-// opens Project section (NEEDS animations)
-function openProjects(){
-    bodyChange.style.gridTemplateRows = "auto auto 1fr auto";
-};
-
-function openContact(){
-    bodyChange.style.gridTemplateRows = "auto auto auto 1fr";   
-};
-
-
-
-// returns display when clicking link
-// function returnHome()
-
-
-// will make it work more dynamically in future update
+// Opens Contact section (with animation)
+function openContact() {
+    bodyChange.classList.remove('expanded');
+    projChange.style.maxHeight = "0";
+    contactSection.style.maxHeight = "690px";
+}
