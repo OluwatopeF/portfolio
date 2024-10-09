@@ -16,13 +16,6 @@ body {
     transition: max-height 0.5s cubic-bezier(0.165, 0.84, 0.44, 1), grid-template-rows 0.5s ease; /* Smoother transition */
 }
 
-/* Name design */
-.name {
-    background-color: red;
-    max-width: fit-content;
-    position: block;
-}
-
 /* Navbar */
 .navBar {
     top: 0;
@@ -33,7 +26,7 @@ body {
 
 .navBar ul {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     list-style-type: none;
     text-decoration: none;
     font-style: italic;
@@ -57,9 +50,66 @@ body {
     background-color: aqua;
     margin: auto;
     min-height: 660px;
-    max-height: 794px; /* Initial max-height */
+    max-height: 794px; 
+    width: 900px;
     overflow: hidden;
+    text-align: left;
+    font-size: 40px;
     transition: max-height 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/* summary animation */
+.intro .summary{
+    display: flex;
+}
+
+.intro .dynaOccupation{
+    margin-left: 10px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.intro .dynaOccupation li{
+    color: red;
+    list-style: none;
+    font-size: 40px;
+    top: 0;
+    position: relative;
+    /* if adding moret than two changes steps and top */
+
+    animation: swap 10s steps(2) infinite; 
+}
+/* this changes the words */
+/* wordswap = typing animation * 2 */
+@keyframes swap{
+    100%{
+        top: -90px;
+    }
+}
+
+
+.intro .dynaOccupation li::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+
+    /* replace back color with the body background color */
+    background-color: aqua;
+
+    border-left: 2px solid red;
+    animation: typing 5s steps(24) infinite;
+}
+
+@keyframes typing{
+    40%,
+    60%{
+        left:calc(100% + 30px);
+    }
+    100%{
+        left: 0;
+    }
 }
 
 
