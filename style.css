@@ -122,10 +122,22 @@ body {
 
 .project .innerProj {
     background-color: brown;
-    width: 60%;
+    display: flex;
+    width: 100%;
     height: 650px;
     margin: 0 auto;
-    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow-x: auto;
+    white-space: nowrap;
+
+}
+
+.project .innerProj .projectItems{
+    background-color: chartreuse;
+    width: 510px;
+    height: 90%;
+    margin: 15px;
 }
 
 /* Contact section */
@@ -133,7 +145,19 @@ footer {
     grid-area: contact;
     color: white;
     background-color: black;
-    max-height: 0; /* Collapsed by default */
+    max-height: 0; 
+    /* overflow: hidden; */
+    transition: max-height 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.contactBox{
+    max-height: 0;
+    /* border: 8px solid blue; */
+    color: red;
+    font-size: 28px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     overflow: hidden;
     transition: max-height 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
