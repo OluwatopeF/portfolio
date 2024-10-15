@@ -17,6 +17,7 @@ function returnHome(){
         bodyChange.classList.remove('expanded');
         projChange.style.maxHeight = "0"; 
         contactSection.style.maxHeight = "0"; 
+        contactBox.style.maxHeight = "0";
     }
 }
 
@@ -35,6 +36,7 @@ function openProjects() {
         projChange.style.maxHeight = "687px";
         // to keep contacts closed
         contactSection.style.maxHeight = "0"; 
+        contactBox.style.maxHeight = "0";
     }
 }
 
@@ -44,8 +46,7 @@ function openContact() {
         // to shrink
         bodyChange.classList.remove('expanded');
         contactBox.style.maxHeight = "0";
-        // too sudden
-        // contactBox.style.display = "none";
+    
         projChange.style.maxHeight = "0";
         contactSection.style.maxHeight = "0";
     } else{
@@ -59,4 +60,11 @@ function openContact() {
     }
 }
 
+function openEmail(){
+    window.location.href = 'mailto:topeumar@gmail.com';
+}
+
+function openLinkedin(){
+    window.open('https://www.linkedin.com/in/oluwatope-folorunso-523222207/')
+}
 
