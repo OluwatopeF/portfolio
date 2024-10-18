@@ -1,0 +1,28 @@
+[
+    {
+        "title":"Speed Typing Analysis",
+        "image": "img/brick.jpg",
+        "description":"This is a small app that measures your typing speed. Start the test by clicking the button and start typing. This measures your typing speed by words per minute as well as the time elasped, words typed and word length",
+        "link":"https://oluwatopef.github.io/JStest/speedAnalysis/speed_analysis.html"
+    },
+    {
+        "title":"title2", 
+        "image": "img/brick.jpg", 
+        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, expedita?"
+    },
+    {
+        "title":"title3", 
+        "image": "img/brick.jpg", 
+        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, expedita?"
+    },
+    {
+        "title":"title4", 
+        "image": "img/brick.jpg", 
+        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, expedita?"
+    },
+    {
+        "title":"title5", 
+        "image": "img/brick.jpg",
+        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, expedita?"
+    }
+]

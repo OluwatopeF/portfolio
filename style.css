@@ -136,9 +136,14 @@ body {
 
 .project .innerProj .projectItems{
     background-color: chartreuse;
-    width: 510px;
+    min-width: 510px;
     height: 90%;
     margin: 15px;
+}
+
+.project .innerProj .projectItems p{
+    font-size: 20px;
+    white-space: normal;
 }
 
 /* Contact section */
