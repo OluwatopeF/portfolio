@@ -72,10 +72,6 @@ function openLinkedin(){
 
 
 // using JSON for convenient input of project description in future
-
-
-
-
 fetch('./data.json')
     .then(res => res.json())
     .then(data => {
@@ -83,7 +79,7 @@ fetch('./data.json')
         const innerProj = document.getElementById('innerProj');
         innerProj.innerHTML = '';
 
-        // function to create a new div for each project in div
+        // function to create a new div for each project in JSON
         data.forEach(item => {
             const projDiv = document.createElement('div');
             projDiv.className = 'projectItems';

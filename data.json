@@ -6,19 +6,22 @@
         "link":"https://oluwatopef.github.io/JStest/speedAnalysis/speed_analysis.html"
     },
     {
-        "title":"title2", 
+        "title":"To-do List", 
         "image": "img/brick.jpg", 
-        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, expedita?"
+        "description":"A to-do list that adds tasks and clears them by making the checkbox or clicking the 'Clear All' button.",
+        "link":"https://oluwatopef.github.io/JStest/TodoList/todo_list.html"
     },
     {
-        "title":"title3", 
-        "image": "img/brick.jpg", 
-        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, expedita?"
+        "title":"Colorful Memory Game", 
+        "image": "img/colorfulMemoryGame.jpg", 
+        "description":"This is a memory game that involves choosing two matching colors within a time limit of 30 seconds. Start playing by clicking 'Start/Restart'.",
+        "link":"https://oluwatopef.github.io/JStest/colorfulMemoryGame/colorful_memory-game.html"
     },
     {
-        "title":"title4", 
+        "title":"Weather Report", 
         "image": "img/brick.jpg", 
-        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, expedita?"
+        "description":"This website shows the weather of a specified city through the use of an API.",
+        "link":"https://oluwatopef.github.io/JStest/weatherReport/weather_report.html"
     },
     {
         "title":"title5", 
