@@ -13,7 +13,7 @@
     },
     {
         "title":"Colorful Memory Game", 
-        "image": "img/colorfulMemoryGame.jpg", 
+        "image": "img/colorfulMemoryGame.JPG", 
         "description":"This is a memory game that involves choosing two matching colors within a time limit of 30 seconds. Start playing by clicking 'Start/Restart'.",
         "link":"https://oluwatopef.github.io/JStest/colorfulMemoryGame/colorful_memory-game.html"
     },
