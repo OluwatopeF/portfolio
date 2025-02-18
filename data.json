@@ -24,8 +24,9 @@
         "link":"https://oluwatopef.github.io/JStest/weatherReport/weather_report.html"
     },
     {
-        "title":"title5", 
+        "title":"Coinflip App", 
         "image": "img/brick.jpg",
-        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, expedita?"
+        "description":"Flip a coin. Reset if needed.",
+        "link":"https://oluwatopef.github.io/coinflip-app/"
     }
 ]

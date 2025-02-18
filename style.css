@@ -71,15 +71,16 @@ body {
 }
 
 .intro .dynaOccupation li{
-    color: red;
+    color: rgb(42 74 215 / 80%);
     list-style: none;
     font-size: 40px;
     top: 0;
     position: relative;
-    /* if adding moret than two changes steps and top value */
+    /* if adding more than two changes steps and top value */
 
     animation: swap 10s steps(2) infinite; 
 }
+
 /* this changes the words */
 /* wordswap = typing animation * 2 */
 @keyframes swap{
@@ -99,7 +100,7 @@ body {
     /* replace back color with the body background color */
     background-color: rgba(182, 194, 228);
 
-    border-left: 2px solid red;
+    border-left: 2px solid rgb(42 74 215 / 80%);
     animation: typing 5s steps(24) infinite;
 }
 
@@ -116,13 +117,13 @@ body {
 
 .project {
     grid-area: project;
-    max-height: 0; /* Collapsed by default */
+    max-height: 0; 
     overflow: hidden;
     transition: max-height 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .project .innerProj {
-    background-color: rgba(34, 31, 219, 0.856);
+    background-color: rgb(42 74 215 / 80%);
     display: flex;
     width: 100%;
     height: 650px;
@@ -135,15 +136,21 @@ body {
 }
 
 .project .innerProj .projectItems{
-    background-color: chartreuse;
-    min-width: 510px;
+    background-color: lightgray;
+    max-width: 500px;
     height: 90%;
-    margin: 15px;
+    margin: 10px;
+    flex-shrink: 0;
 }
 
 .project .innerProj .projectItems p{
     font-size: 20px;
     white-space: normal;
+}
+
+.project .innerProj .projectItems a{
+    color: black;
+    font-size: 1.5rem;
 }
 
 /* Contact section */
@@ -158,8 +165,7 @@ footer {
 
 .contactBox{
     max-height: 0;
-    /* border: 8px solid blue; */
-    color: red;
+    color: rgb(42 74 215 / 80%);
     font-size: 28px;
     display: flex;
     justify-content: space-evenly;

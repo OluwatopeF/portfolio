@@ -1,4 +1,3 @@
-// import titles from './desc.json';
 
 // Get body and project elements
 const bodyChange = document.body;
