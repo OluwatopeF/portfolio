@@ -34,7 +34,7 @@ function openProjects() {
         // for repetition
         bodyChange.classList.add('expanded');
         // REQUIRED FOR ANIMATION
-        projChange.style.maxHeight = "687px";
+        projChange.style.maxHeight = "650px";
         // to keep contacts closed
         contactSection.style.maxHeight = "0"; 
         contactBox.style.maxHeight = "0";
@@ -56,7 +56,7 @@ function openContact() {
         // will change to match requireed height:
         contactBox.style.maxHeight = "90px";
         contactBox.style.display = "flex";
-        contactSection.style.maxHeight = "687px"; 
+        contactSection.style.maxHeight = "650px"; 
         projChange.style.maxHeight = "0"; 
     }
 }
