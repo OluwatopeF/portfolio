@@ -11,7 +11,7 @@ const contactBox = document.getElementById("contactBox");
 projChange.style.maxHeight = "0";
 contactBox.style.display = "none";
 
-function toNewPortfolio(){
+function toPortfolio(){
     window.open("https://oluwatopef.github.io/portfoliov2/", "_blank");
 }
 
