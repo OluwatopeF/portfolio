@@ -12,7 +12,7 @@ projChange.style.maxHeight = "0";
 contactBox.style.display = "none";
 
 function toPortfolio(){
-    window.open("https://oluwatopef.github.io/portfoliov2/", "_blank");
+    window.open("https://www.google.com", "_blank");
 }
 
 
